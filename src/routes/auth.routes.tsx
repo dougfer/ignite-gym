@@ -15,16 +15,23 @@ export const AuthRoutes = () => {
   return (
     <Navigator
       screenOptions={{
-        headerShown: false
+        headerShown: false,
       }}
+      
     >
       <Screen 
         name='signIn'
         component={SignIn}
+        options={{
+          animation: 'slide_from_left'
+        }}
       />
       <Screen 
         name='signOut'
         component={SignUp}
+        options={{
+          animation: 'slide_from_right'
+        }}
       />
     </Navigator>
   )

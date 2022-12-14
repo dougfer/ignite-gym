@@ -16,6 +16,7 @@ module.exports = function(api) {
             '.tsx',
           ]
         },
+        'react-native-reanimated/plugin'
       ],
     ],
   }
