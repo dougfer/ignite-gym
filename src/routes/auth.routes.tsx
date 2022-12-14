@@ -17,7 +17,6 @@ export const AuthRoutes = () => {
       screenOptions={{
         headerShown: false,
       }}
-      
     >
       <Screen 
         name='signIn'

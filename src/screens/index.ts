@@ -1,2 +1,6 @@
 export * from './SignIn'
 export * from './SignUp'
+export * from './Home'
+export * from './Exercise'
+export * from './Profile'
+export * from './History'
