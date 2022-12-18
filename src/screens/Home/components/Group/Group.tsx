@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Text, Pressable, IPressableProps } from 'native-base'
+import { Text, Pressable, IPressableProps } from 'native-base'
 
 type GroupProps = {
   name: string

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import { HStack, VStack, FlatList, Heading, Text } from 'native-base'
 import { HomeHeader } from 'src/components'
 import { Group, ExerciseCard } from './components'
+import { HStack, VStack, FlatList, Heading, Text } from 'native-base'
 
 export const Home: React.FC = () => {
   const [groupSelected, setGroupSelected] = useState('costas')
